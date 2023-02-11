@@ -1,0 +1,58 @@
+project:
+  type: book
+  preview:
+    port: 4200
+
+book:
+  title: "Data Visualization for Scientists"
+  author: "[Otho Mantegazza]()"
+  date: today
+  chapters:
+    - text: "Introdution"
+      file: index.qmd
+    - text: "Tools"
+      file: tools.qmd
+    - text: "Communicating Data Visually"
+      file: communicating-visually.qmd
+    - text: "The Grammar of Graphics in R"
+      file: ggplot2.qmd
+    - text: "Better Graphs"
+      file: better-graphs.qmd
+    - text: "Graphics for Whom"
+      file: user-research.qmd
+    - text: "Interaction"
+      file: interaction.qmd
+    - text: "Native Graphs for the Web"
+      file: d3.qmd
+    - text: "Accessibility"
+      file: accessibility.qmd
+    - text: "Literate Programming"
+      file: literate-programming.qmd
+    - text: "Quarto"
+      file: quarto.qmd
+    - text: "Deploys"
+      file: deploy.qmd
+    - text: "References"
+      file: references.qmd
+  page-footer:
+    left:
+      - text: 'This work is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">CC BY-NC-SA 4.0 License</a> by Otho Mantegazza'
+    right:
+      - icon: github
+        href: https://github.com/othomantegazza
+      - icon: linkedin
+        href: https://www.linkedin.com/in/otho-mantegazza/
+      - icon: twitter
+        href: https://twitter.com/othomn
+    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
