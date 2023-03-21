@@ -1,0 +1,16 @@
+# Communicating Data Visually
+
+## Comic Book Pattern Example
+
+## Visual Cognition / Visual Perception of Dataviz
+
+And what it tells us about how to design a data visualization.
+
+## Refs About Designing Dataviz
+
+## Refs About Coding Dataviz
+
+## The Grammar of Graphics
+
+## Can Dataviz be misleading?
+
