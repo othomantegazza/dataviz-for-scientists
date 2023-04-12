@@ -1,0 +1,17 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# The Grammar of Graphics in R
+
+The advantage of ggplot2 is not only that it is an open source, easy to use package. But it is also that it revolves around the grammar of graphics, and so it is structured in a very logical ways, that let you think about the logic of building a graph, instead only of scripting and programming.
+
+The grammar of graphics is a set of rules that you can use to break down almost each type of graph into the same set of main components. This standardized set of components can then be used to program data viusalization in a logical and structured way.
+
+What Hadley Wickham did, is to take the grammar of graphics and to layer it. Or better, to easily give you access to each layer.
+
+GGplot2 is not a design tool, but it is an incredibly functional scientific and production tool.
+
+https://vita.had.co.nz/papers/layered-grammar.html
