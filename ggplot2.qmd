@@ -15,3 +15,9 @@ What Hadley Wickham did, is to take the grammar of graphics and to layer it. Or 
 GGplot2 is not a design tool, but it is an incredibly functional scientific and production tool.
 
 https://vita.had.co.nz/papers/layered-grammar.html
+
+Remember:
+- Leeland is a computer scientist.
+- Bertin is a cartographer.
+
+The perspective in the two books are very different.
