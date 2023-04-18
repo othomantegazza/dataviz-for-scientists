@@ -1,4 +1,3 @@
 # Preface {.unnumbered}
 
-Hello there!
-
+Data Visualization is a fundamental part od statistics.

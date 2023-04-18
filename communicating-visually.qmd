@@ -1,65 +1,18 @@
----
-output: html_document
-editor_options: 
-  chunk_output_type: console
----
-
 # Communicating Data Visually
 
 ## Comic Book Pattern Example
 
-When data are represented graphically, we understand them faster.
+When data are represented graphically, we understand them faster.\\
 
-## Visual Cognition / Visual Perception of Dataviz
+KEEP IT GENERAL
+
+## Visual Cognition / Visual Perception of Dataviz (part 1)
 
 Why? Can understanding this process help us leveraging dataviz for our needs (extracting knowledge from data?)
 
 https://www.csc2.ncsu.edu/faculty/healey/PP/#jscript_search
 
-Lace Padilla, slow and fast thinking
-
-https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73
-
 2 dimension available, the rest we have to invent.
-
-## Declutter with Gestalt
-
-Gestalt psychologists emphasize that organisms perceive entire patterns or configurations, not merely individual components.
-
-"the whole is more than the sum of its parts."
-
-The whole data visualization process is somehow a gestalt process.
-
-```{r}
-library(tidyverse)
-
-dat <- 
-  tibble(
-    x = runif(30, 10, 40),
-    y = x + rnorm(length(x))
-  ) %>% 
-  mutate(id = 1:n())
-
-
-dat %>% 
-  ggplot() +
-  aes(x = x,
-      y = y) +
-  geom_point() +
-  facet_wrap(facets = 'id')
-
-dat %>% 
-  ggplot() +
-  aes(x = x,
-      y = y) +
-  geom_point()
-```
-
-Especially the grouping rules can be used to declutter a data visualization.
-
--   Proximity
-
--   
 
 ## Refs About Coding Dataviz
 
@@ -67,4 +20,4 @@ Especially the grouping rules can be used to declutter a data visualization.
 
 ## Refs About Designing Dataviz
 
-## Can Dataviz be misleading?
+

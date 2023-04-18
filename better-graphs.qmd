@@ -1,0 +1,46 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Show the Data
+
+## As much as you can
+
+# Declutter with Gestalt
+
+Gestalt psychologists emphasize that organisms perceive entire patterns or configurations, not merely individual components.
+
+"the whole is more than the sum of its parts."
+
+The whole data visualization process is somehow a gestalt process.
+
+{r}
+library(tidyverse)
+
+dat <- 
+  tibble(
+    x = runif(30, 10, 40),
+    y = x + rnorm(length(x))
+  ) %>% 
+  mutate(id = 1:n())
+
+
+dat %>% 
+  ggplot() +
+  aes(x = x,
+      y = y) +
+  geom_point() +
+  facet_wrap(facets = 'id')
+
+dat %>% 
+  ggplot() +
+  aes(x = x,
+      y = y) +
+  geom_point()
+
+Especially the grouping rules can be used to declutter a data visualization.
+
+Proximity
+

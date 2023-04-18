@@ -1,0 +1,27 @@
+# Tools & Skills
+
+## Skills
+
+The graphical language is not perceived in a linear or temporal fashion, but ubiquitously.
+
+The grpahical language of data visualization is not perceived through "rigidly" encode rules, like written language or musical notation.
+
+Visualizing data is a powerful tool, and much of its power stands from its capacity of using at best our "wide field" visual perception capabilities, and by its versatility.
+
+For the same reasons, data visualization is a thoughtful and nuanced discipline, which sometimes might seem hard to master.
+
+## Skills
+
+You will have to:
+
+- Analyze (Statistics).
+- Code (Programming).
+- Design (Graphically).
+
+## Exercises
+
+1. Find 3 influential historical data visualizations, or find 3 that you like. What's the education background of the author?
+
+    (Hint, look for historical or niche data visualization work, because if you just google dataviz, the main hit might just be corporate ads)
+    
+1. 
