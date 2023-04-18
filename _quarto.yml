@@ -10,7 +10,7 @@ book:
   chapters:
     - text: "Introdution"
       file: index.qmd
-    - text: "Tools"
+    - text: "Tools & Skills"
       file: tools.qmd
     - text: "Communicating Data Visually"
       file: communicating-visually.qmd
