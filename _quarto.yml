@@ -16,6 +16,8 @@ book:
       file: communicating-visually.qmd
     - text: "The Grammar of Graphics in R"
       file: ggplot2.qmd
+    - text: "Graphics for yorself"
+      file: graphics-for-yorself.qmd
     - text: "Better Graphs"
       file: better-graphs.qmd
     - text: "Graphics for Whom"

@@ -1,0 +1,39 @@
+---
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+# Exercise
+
+[Steganography](https://en.wikipedia.org/wiki/Steganography) is known
+as:
+
+> The practice of representing information within another message or
+> physical object, in such a manner that the presence of the information
+> is not evident to human inspection.
+
+Together with cryptography, steganography, can be used to deliver a
+secret message. While cryptography just conceals the content of the
+message, steganography conceals the existence of the message itself.
+
+Examples of steganography can be found in:
+
+-   Morse code hidden in yarn, to hide a message in what just seems a
+    decoration pattern.
+-   Hidden microscopic dots on printed paper
+-   Concealing messages digitally in the noise of an image or in digital
+    [sound spectrograms](https://en.wikipedia.org/wiki/Spectrogram).
+
+While I don't want you to become an expert in steganography, I've have
+hidden a message in the datasets for this exercise, and you can
+visualize this message only by visualizing the data in the dataset.
+
+So, put on your secret agent gears and inspect the next datasets until
+you have found the hidden messages. One of your colleagues has been
+caught, and he is hiding at the secret coordinates.\
+
+1.  Dataset 1 is the easiest, just find the two
+
+The goal of this exercise is to help you learn making as many graphs as
+possible to explore the data, without
